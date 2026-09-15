@@ -1,0 +1,42 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Setup: create virtual environment",
+      "type": "shell",
+      "command": "python -m venv .venv",
+      "problemMatcher": []
+    },
+    {
+      "label": "Setup: install requirements",
+      "type": "shell",
+      "windows": { "command": ".venv\\Scripts\\python.exe -m pip install -r requirements.txt" },
+      "command": ".venv/bin/python -m pip install -r requirements.txt",
+      "problemMatcher": []
+    },
+    {
+      "label": "Setup: download NLP models",
+      "type": "shell",
+      "windows": {
+        "command": ".venv\\Scripts\\python.exe -m spacy download en_core_web_sm; .venv\\Scripts\\python.exe -c \"import nltk; nltk.download('stopwords'); nltk.download('wordnet')\""
+      },
+      "command": ".venv/bin/python -m spacy download en_core_web_sm && .venv/bin/python -c \"import nltk; nltk.download('stopwords'); nltk.download('wordnet')\"",
+      "problemMatcher": []
+    },
+    {
+      "label": "Run app",
+      "type": "shell",
+      "command": "python -m streamlit run app.py",
+      "isBackground": true,
+      "problemMatcher": [],
+      "group": { "kind": "build", "isDefault": true }
+    },
+    {
+      "label": "Run tests",
+      "type": "shell",
+      "command": "python -m pytest -v",
+      "problemMatcher": [],
+      "group": { "kind": "test", "isDefault": true }
+    }
+  ]
+}

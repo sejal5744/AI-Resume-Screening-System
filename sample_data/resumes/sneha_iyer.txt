@@ -1,0 +1,19 @@
+SNEHA IYER
+sneha.iyer@example.com
++91 90000 11122
+
+OBJECTIVE
+Fresh graduate seeking an entry-level role in software development.
+
+EDUCATION
+B.Sc Computer Science, Madras University, 2025
+
+PROJECTS
+Library Management System - Java, MySQL
+Weather App - HTML, CSS, JavaScript
+
+SKILLS
+Java, C++, HTML, CSS, JavaScript, MySQL, Data Structures, Communication, Teamwork
+
+INTERNSHIP
+Web Development Intern, StartupHub (May 2024 - Jul 2024)

@@ -1,0 +1,17 @@
+[
+  {
+    "job_title": "Machine Learning Engineer (NLP / CV)",
+    "min_experience": 2,
+    "job_description": "We are hiring a Machine Learning Engineer to build our AI resume screening platform.\nResponsibilities: design NLP pipelines for text extraction and entity recognition, build ranking models\nwith scikit-learn (TF-IDF, similarity measures), implement OCR for scanned documents using OpenCV and\nTesseract, and deploy models as REST APIs with Docker on AWS.\nRequirements: 2+ years of experience with Python, Machine Learning, NLP, OpenCV, Pandas, NumPy,\nScikit-learn, SQL and Git. Experience with PyTorch or TensorFlow is a plus."
+  },
+  {
+    "job_title": "Data Analyst",
+    "min_experience": 1,
+    "job_description": "Looking for a Data Analyst to analyse sales and customer data and build dashboards.\nMust know SQL, Excel, Python (Pandas), statistics and data visualisation with Power BI or Tableau.\n1+ year of experience in data analysis. Good communication skills required."
+  },
+  {
+    "job_title": "Full Stack Developer",
+    "min_experience": 3,
+    "job_description": "Full Stack Developer to build scalable web applications. Tech stack: React, Node.js,\nExpress, JavaScript/TypeScript, PostgreSQL or MongoDB, REST API design, Docker, Git and CI/CD.\n3+ years of experience required. Cloud experience (AWS or Azure) and Agile practices preferred."
+  }
+]
